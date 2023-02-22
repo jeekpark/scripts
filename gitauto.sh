@@ -1,7 +1,7 @@
 find . -name ".DS*"
 echo -e "\n----- \".DS*\" files deleted -----\n"
 find . -name ".DS*" -delete
-
+rm -rf .vscode
 
 git add .
 git status
